@@ -11,7 +11,7 @@ green led --> 0.40€
 
 blue led --> 0.50€
 
-white led --> indicates how long it is to reach the price of that product according to the budget (example if you have € 0.10 and you want to buy the green led (€ 0.30) the white led flashes twice
+white led --> indicates how long it is to reach the price of that product according to the budget (example if you have € 0.10 and you want to buy the green led (€ 0.30) the white led flashes twice) 
 
 # THE BUTTON
 
