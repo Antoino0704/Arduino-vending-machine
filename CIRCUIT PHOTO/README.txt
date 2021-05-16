@@ -1,1 +1,0 @@
-download otherwise you don't see the photos correctly
