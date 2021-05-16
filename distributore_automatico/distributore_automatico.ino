@@ -54,6 +54,7 @@ void printMoney() {
 
 void loop() {
   
+  //input
   if (Serial.available() > 0 && money < 90) {
     pressed = Serial.read();
     if (pressed.equals("49") == true) {   //49 stand for 10
@@ -61,7 +62,8 @@ void loop() {
       printMoney();
     }
   }
-
+  
+  //red led
   if (digitalRead(button1) == LOW) {
     if (money >= 20) {
       allLow();
@@ -76,6 +78,7 @@ void loop() {
     }
   }
 
+  //yellow led
   if (digitalRead(button2) == LOW) {
     if (money >= 30) {
       allLow();
@@ -90,6 +93,7 @@ void loop() {
     }
   }
 
+  //green led
   if (digitalRead(button3) == LOW) {
     if (money >= 40) {
       allLow();
@@ -104,6 +108,7 @@ void loop() {
     }
   }
 
+  //blue led
   if (digitalRead(button4) == LOW) {
     if (money >= 50) {
       allLow();
