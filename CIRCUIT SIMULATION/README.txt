@@ -1,1 +1,1 @@
-download otherwise you don't see the photos correctly
+download otherwise you don't see the photo correctly
